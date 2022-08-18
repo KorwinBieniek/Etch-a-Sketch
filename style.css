@@ -1,0 +1,149 @@
+body {
+    background-color: rgb(227, 204, 148);
+    font-family: 'Roboto';
+}
+
+.title {
+    font-size: 56px;
+    width: 25%;
+    margin-left: 37.5%;
+    margin-right: 37.5%;
+}
+
+.slidecontainer {
+    position: absolute;
+    top: 97%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#output {
+    width: 45px;
+    position: absolute;
+    top: 0%;
+    left: 120%;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: #b9b7b7;
+    outline: none;
+    -webkit-transition: .2s;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background: #b08352;
+    cursor:pointer;
+  }
+
+.grid {
+    display: flex;
+    justify-content: center;
+    width: 825px;
+    border: 10px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.column {}
+
+.row {
+    width: 1px;
+    height: 1px;
+    margin: 0px;
+    padding: 5px;
+    background: white;
+    border: 0px solid black;
+    text-align: center;
+}
+
+.reset_button {
+    width: 10%;
+    margin-left: 45%;
+    margin-right: 45%;
+    font-size: 18px;
+    padding: 25px;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 12px;
+    background-color: rgb(171, 171, 171);
+}
+
+.color_grid {
+    display: flex;
+    justify-content: center;
+}
+
+.color {
+    width: 50px;
+    height: 50px;
+
+    margin: 15px;
+    padding: 25px;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.white {
+    font-weight: 1000;
+    font-size: 16px;
+    background-color: white;
+}
+
+.black {
+    background-color: black;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.violet {
+    background-color: violet;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.grey {
+    background-color: grey;
+}
+
+.rainbow {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Classic_Rainbow_Flag.png/250px-Classic_Rainbow_Flag.png');
+}
+
+
+.credits {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 15px;
+}
